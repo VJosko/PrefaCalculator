@@ -51,8 +51,9 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
                         android:inputType="numberSigned"
-                        android:text="@={viewModel.score.playerOneScore}"/>
+                        android:text="@={viewModel.score.playerOneScore}" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -87,8 +88,9 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:imeOptions="actionNext"
                         android:inputType="numberSigned"
-                        android:text="@={viewModel.score.playerTwoScore}"/>
+                        android:text="@={viewModel.score.playerTwoScore}" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -123,8 +125,9 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:imeOptions="actionDone"
                         android:inputType="numberSigned"
-                        android:text="@={viewModel.score.playerThreeScore}"/>
+                        android:text="@={viewModel.score.playerThreeScore}" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 

@@ -1,5 +1,8 @@
 package com.vudrag.prefacalculator;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Score extends Party{
 
     private String playerOneScore;
@@ -39,5 +42,25 @@ public class Score extends Party{
 
     public void setPlayerThreeScore(String playerThreeScore) {
         this.playerThreeScore = playerThreeScore;
+    }
+
+    public Integer getPlayerOneIntegerScore(){
+        return getIntegerScore(getPlayerOneScore());
+    }
+
+    public Integer getPlayerTwoIntegerScore(){
+        return getIntegerScore(getPlayerTwoScore());
+    }
+
+    public Integer getPlayerThreeIntegerScore(){
+        return getIntegerScore(getPlayerThreeScore());
+    }
+
+    private Integer getIntegerScore(String playerScore){
+        try {
+            return Integer.parseInt(playerScore);
+        }catch (NumberFormatException ex){
+            return 0;
+        }
     }
 }

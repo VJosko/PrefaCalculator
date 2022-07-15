@@ -5,10 +5,6 @@ A
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 n
 >app/src/main/java/com/vudrag/prefacalculator/MainActivity.java,6\c\6c26be90460113b8deb90c50e2e9ded112fd6202
-q
-Aapp/src/main/java/com/vudrag/prefacalculator/ResultSingleton.java,5\d\5d9c8a3c0b299771674b4f1889aa20f5234c87fa
-g
-7app/src/main/java/com/vudrag/prefacalculator/Score.java,0\b\0b60619d69a5b9210958f839d22ca66704165acc
 €
 Papp/src/androidTest/java/com/vudrag/prefacalculator/ExampleInstrumentedTest.java,b\6\b640c16ce852c0cecb8876413ab7e5f935b2f003
 P
@@ -29,9 +25,5 @@ u
 Eapp/src/main/java/com/vudrag/prefacalculator/PlayerNamesFragment.java,5\1\518fb063b8ac7999164a80131f4fe83c02e1f34c
 r
 Bapp/src/test/java/com/vudrag/prefacalculator/ScoresScreenTest.java,3\4\34286342e308f011005c01d01ea1d1774e0675de
-p
-@app/src/main/java/com/vudrag/prefacalculator/ScoresFragment.java,4\f\4fe14300ea46d8e633f114e01e83a920e07f089c
-q
-Aapp/src/main/java/com/vudrag/prefacalculator/ScoresViewModel.java,4\5\452654a88ecfea56831edcd7605a5e268f4ede28
 w
 Gapp/src/test/java/com/vudrag/prefacalculator/PlayerNamesScreenTest.java,e\6\e62bffbc4463da4802dae9d8877af73d67b4943e

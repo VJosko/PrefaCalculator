@@ -21,12 +21,17 @@ public class ScoresViewModel extends ViewModel {
     }
 
     public void setNames(Party party, Integer instanceNumber){
-        this.instanceNumber = instanceNumber;
+        if(score != null) return;
         this.score = new Score(party, instanceNumber);
+    }
+
+    public void setInstanceNumber(Integer instanceNumber){
+        this.instanceNumber = instanceNumber;
     }
 
     public void nextScreen(){
         addScores();
+        fragment.saveScore();
         if(instanceNumber == 2){
             showResult();
         }else{
